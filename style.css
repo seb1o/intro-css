@@ -1,0 +1,64 @@
+body{
+    background-color: wheat;
+}
+
+.orange-big-title{
+    color: rgb(255, 85, 0);
+    front-size: xx-large;
+}
+
+header, footer{
+    border-style: solid;
+}
+footer{
+/* 
+    padding-left: 18px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px; */
+    /* padding: 200px 100px 50px 300px; top right bottom left */
+    margin: 200px;
+
+}
+.resized-p{
+    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+   max-width: 300px;
+   max-height: 700px;
+    /* width: 300px;
+    height: 100px;
+    overflow: auto; */
+}
+
+.mother{
+    background-color: brown;
+    padding: 8px;
+   width: 800px;
+   border-radius: 20px;
+    /* width: 50%; */
+}
+.son{
+    background-color: deepskyblue;
+    width: 50vw;
+}
+.strange-borders{
+    border-style: dotted;
+border-radius: 20px;
+border-color: navy;
+
+}
+header{
+   
+    background-image: url(././assets/pea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: center center;
+
+
+}
+/*  
+#lorem-p{
+    border-style: solid;
+}
+  */
