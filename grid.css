@@ -1,0 +1,128 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-areas: 
+    "header header header"
+    "left-sidebar main-content right-sidebar"
+    "gord main-content right-sidebar"
+    "footer footer footer";
+column-gap: 10px;
+row-gap: 20px;
+justify-items: stretch;
+align-items: stretch;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .grid-container{
+      
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  300px 600px 300px 300px 300px;
+        grid-template-areas: 
+        "header header"
+        "left-sidebar left-sidebar"
+        " main-content main-content"
+        " right-sidebar gord"
+        
+        "footer footer";
+    }
+}
+/* @media (max-width: 768px) */
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .grid-container{
+      
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 600px 300px 300px 300px;
+        grid-template-areas: 
+        "header "
+        "left-sidebar"
+        " main-content"
+        " right-sidebar"
+        "gord" 
+        "footer ";}
+   
+}
+
+
+
+.g-i-1{
+ 
+    background: rgb(255, 80, 214);
+    grid-area: header;
+
+}
+.g-i-2{
+   
+    background: rgb(147, 80, 255);
+    grid-area: left-sidebar  ;
+
+    
+}
+.g-i-3{
+   
+    background: rgb(50, 147, 31);
+    grid-area: main-content;
+
+    
+}
+.g-i-4{
+  
+    background: rgb(20, 8, 42);
+    grid-area: right-sidebar;
+
+    
+}
+.g-i-5{
+   
+    background: rgb(47, 15, 3);
+    grid-area: footer;
+
+}
+
+.g-i-6{
+   
+    background: magenta;
+    grid-area: gord;
+    width: 200px;
+    height: 200px;
+   
+}
+
+
+
+
+
+/* 
+.courier-xxs{
+  
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-small;
+   
+}
+.bgc-red{
+    background-color: red;
+    color(white);
+
+}
+.bgc-lblue{
+    color: black;
+    background-color: lightblue;
+}
+.mono-xxl{
+    font-size: xx-large;
+    font-family: monospace;
+
+}
+.padding-small{
+    padding: 12px;
+
+}
+.padding-medium{
+    padding: 16px;
+
+}
+.padding-large{
+
+    padding: 20px;
+} */

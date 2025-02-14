@@ -1,0 +1,35 @@
+* {
+    border: solid 1px red;
+    box-sizing: border-box;
+}
+
+.mother{
+    /* height: 600px; */
+    padding: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+.son{
+    height: 292px;
+    /* width: 300px; */
+    min-width: 100px;
+    order: 100;
+    gap: 10px;
+
+}
+.green{
+    background-color: green;
+    /* flex-grow: 1;
+flex-basis: 0;} */}
+
+.red{
+    background-color: red;
+   /* font-size: xx-large;  */
+    /* flex-grow: 5;
+    flex-asis: 0 */
+     
+}
